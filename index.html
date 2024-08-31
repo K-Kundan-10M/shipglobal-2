@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="todo-container">
+        <!-- Backlog Card -->
+        <div class="card">
+          <h3>Backlog</h3>
+          <ul class="todo-list" id="backlog">
+            <li>
+              <span>task 1</span>
+              <div class="buttons">
+                <button class="nav-btn" disabled>←</button>
+                <button class="nav-btn">→</button>
+              </div>
+            </li>
+            <li>
+              <span>task 2</span>
+              <div class="buttons">
+                <button class="nav-btn" disabled>←</button>
+                <button class="nav-btn">→</button>
+              </div>
+            </li>
+            <li>
+              <span>task 3</span>
+              <div class="buttons">
+                <button class="nav-btn" disabled>←</button>
+                <button class="nav-btn">→</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      
+        <!-- To Do Card -->
+        <div class="card">
+          <h3>To Do</h3>
+          <ul class="todo-list" id="todo">
+            <li>
+              <span>task 4</span>
+              <div class="buttons">
+                <button class="nav-btn">←</button>
+                <button class="nav-btn">→</button>
+              </div>
+            </li>
+            <li>
+              <span>task 5</span>
+              <div class="buttons">
+                <button class="nav-btn">←</button>
+                <button class="nav-btn">→</button>
+              </div>
+            </li>
+            <li>
+              <span>task 6</span>
+              <div class="buttons">
+                <button class="nav-btn">←</button>
+                <button class="nav-btn">→</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      
+        <!-- Ongoing Card -->
+        <div class="card">
+          <h3>Ongoing</h3>
+          <ul class="todo-list" id="ongoing">
+            <li>
+              <span>task 7</span>
+              <div class="buttons">
+                <button class="nav-btn">←</button>
+                <button class="nav-btn">→</button>
+              </div>
+            </li>
+            <li>
+              <span>task 8</span>
+              <div class="buttons">
+                <button class="nav-btn">←</button>
+                <button class="nav-btn">→</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      
+        <!-- Done Card -->
+        <div class="card">
+          <h3>Done</h3>
+          <ul class="todo-list" id="done">
+            <li>
+              <span>task 9</span>
+              <div class="buttons">
+                <button class="nav-btn">←</button>
+                <button class="nav-btn" disabled>→</button>
+              </div>
+            </li>
+            <li>
+              <span>task 10</span>
+              <div class="buttons">
+                <button class="nav-btn">←</button>
+                <button class="nav-btn" disabled>→</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+    <script src="script.js"></script>
+</body>
+</html>

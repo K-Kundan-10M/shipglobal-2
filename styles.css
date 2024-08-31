@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .todo-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px green;
+    width: 200px;
+    padding: 20px;
+  }
+  
+  .card h3 {
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .nav-btn {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-btn:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .nav-btn:not(:disabled):hover {
+    background-color: green;
+  }
+  
+  @media (max-width: 768px) {
+    .todo-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
